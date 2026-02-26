@@ -5,6 +5,7 @@ Out of the box, the encoders on the Launch Control XL 3 are locked to a relative
 This custom script injects a mapping_sensitivity multiplier directly into the Ableton Live 12 API, allowing you to fine-tune the encoder response to your exact preference without losing any of the controller 'smart' script functions (e.g., display feedback, etc.)
 
 **How it Works**
+
 This repository provides a raw elements.py file. By replacing the compiled component in a copy of the default script, you can override the hard-coded "Linear Binary Offset" math that Ableton uses to interpret the XL 3's relative encoders.
 
 **Installation Instructions**
