@@ -12,6 +12,7 @@ This repository provides a raw elements.py file. By replacing the compiled compo
 1. Locate the original script: Go to your Ableton Live 12 application folder and navigate to MIDI remote scripts:
 
 e.g.: Windows: C:\ProgramData\Ableton\Live 12 Suite\Resources\MIDI Remote Scripts
+
 e.g.: Mac: Show Package Contents > Contents/App-Resources/MIDI Remote Scripts
 
 3. Create a new folder called 'Launch_Control_XL_3_CustomSensitivity' and unpack the files from this repo in that folder.
