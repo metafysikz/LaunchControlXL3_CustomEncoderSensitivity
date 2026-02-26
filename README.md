@@ -1,7 +1,7 @@
 # LaunchControlXL3_CustomEncoderSensitivity
 This repository contains a modified MIDI Remote Script for the Novation Launch Control XL 3. It fixes the default sluggish "slow-turning" behavior of the encoders in DAW mode, allowing for fast, 1-turn sweeps from 0% to 100%—essential for live performance, dub-style mixing, and quick parameter adjustments.
 
-Out of the box, the encoders on the Launch Control XL 3 are locked to a relatively slow, high-resolution response in DAW mode. While great for fine-tuning, this makes it difficult to "flick" a parameter from 0% to 100% in a single smooth motion—a common requirement for live performance and dub-style mixing.
+Out of the box, the encoders on the Launch Control XL 3 are locked to a relatively slow, high-resolution response in DAW mode. While great for high precision fine-tuning, this makes it difficult to "flick" a parameter from 0% to 100% in a single smooth motion—a common requirement for live performance and dub-style mixing.
 This custom script injects a mapping_sensitivity multiplier directly into the Ableton Live 12 API, allowing you to fine-tune the encoder response to your exact preference without losing any of the controller 'smart' script functions (e.g., display feedback, etc.)
 
 How it Works
