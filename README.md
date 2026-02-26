@@ -10,11 +10,13 @@ This repository provides a raw elements.py file. By replacing the compiled compo
 
 **Installation Instructions**
 1. Locate the original script: Go to your Ableton Live 12 application folder and navigate to MIDI remote scripts:
+
 e.g.: Windows: C:\ProgramData\Ableton\Live 12 Suite\Resources\MIDI Remote Scripts
 e.g.: Mac: Show Package Contents > Contents/App-Resources/MIDI Remote Scripts
-2. Create a new folder called 'Launch_Control_XL_3_CustomSensitivity' and unpack the files from this repo in that folder.
-3. Open the '**elements.py**' file with a notepad or any other simple editor, and look for the 'mapping_sensitivity' parameters that is present on two lines of code. Change this setting to your desired preference. The current setting (2.0) feels optimal for me.
-4. Open Ableton and go to Preferences > Link/Tempo/MIDI and switch Control Surface 'Launch_Control_XL_3' to 'Launch_Control_XL_3_CustomSensitivity', leaving all the other MIDI settings of the MIDI controller as is.
-5. Updating Settings: If you change the sensitivity later, close Ableton and delete the __pycache__ folder inside your script folder. This forces Ableton to recompile your changes on the next launch.
+
+3. Create a new folder called 'Launch_Control_XL_3_CustomSensitivity' and unpack the files from this repo in that folder.
+4. Open the '**elements.py**' file with a notepad or any other simple editor, and look for the 'mapping_sensitivity' parameters that is present on two lines of code. Change this setting to your desired preference. The current setting (2.0) feels optimal for me.
+5. Open Ableton and go to Preferences > Link/Tempo/MIDI and switch Control Surface 'Launch_Control_XL_3' to 'Launch_Control_XL_3_CustomSensitivity', leaving all the other MIDI settings of the MIDI controller as is.
+6. Updating Settings: If you change the sensitivity later, close Ableton and delete the __pycache__ folder inside your script folder. This forces Ableton to recompile your changes on the next launch.
 
 Hope you enjoy :)
